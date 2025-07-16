@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kick-py"
+version = "0.1.0"
+description = "Kick API parser for bot"
+authors = ["iwametal <od.leonardo01@gmail.com>"]
+readme = "README.md"
+packages = [{include = "kick"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.12.14"
+click = "^8.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
